@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Analisador de números</title>
+  </head>
+  <body>
+    <header>
+      <h1>Analisador de números</h1>
+    </header>
+    <section>
+      <div id="msg">
+        <p>Número (entre 1 a 100):</p>
+        <input type="number" id="num" />
+        <button onclick="adicionar()">Adicionar</button>
+      </div>
+      <div>
+        <select size="6" id="sel"></select>
+        <button onclick="finalizar()">Finalizar</button>
+      </div>
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy; Narniano</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
